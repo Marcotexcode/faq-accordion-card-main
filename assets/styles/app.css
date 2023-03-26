@@ -1,0 +1,91 @@
+@import url('variables.css');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh-Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.a {
+    border: 1px solid #000;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    height: calc(100vh - 24px);
+}
+
+.card {
+    padding: 2px;
+    margin: auto;
+    width: 1100px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0.464, 0.464, 0.464, 0.464) 0px 7px 29px 0px;
+}
+
+.card_body_left {
+    padding: 2px;
+    width: 50%;
+}
+
+.card_body_right {
+    padding: 50px;
+    width: 50%;
+}
+
+.card_body_right_title {
+    margin: 30px 0px 30px 0px;
+}
+
+.card_body_right_text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card_body_right_paragh {
+    padding: 10px;
+    display: none;
+    transition: display 200ms;
+}
+
+.card_body_right_paragh:hover {
+    display: block;
+  }
+
+
+/* Al click della tendina si attiva */
+.arrow {
+   /* // transition: display 0.3s linear; */
+    cursor: pointer;
+}
+
+/* .card_body_right_paragh {
+    display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+.card_body_right_paragh .active {
+    opacity: 1;
+    display: block;
+} */

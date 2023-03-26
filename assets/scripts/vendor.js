@@ -1,3 +1,2 @@
 
-const arrow = document.querySelectorAll('.arrow');
-const paragh = document.querySelectorAll('.card_body_right_paragh');
+const containerText = document.querySelectorAll('.card_body_right_container_text');

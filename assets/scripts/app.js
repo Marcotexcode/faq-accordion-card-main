@@ -1,10 +1,12 @@
 
+containerText.forEach(el => {
+    const arrow = el.querySelector('.arrow');
+    const paragh = el.querySelector('.card_body_right_paragh');
 
-arrow.forEach(el => {
-    el.addEventListener("click", function(){
-        el.style.transform = el.style.transform === 'rotate(180deg)' ? '' : 'rotate(180deg)';
-        // Prendere il paragrafo in base a el selezionato
-        //paragh.style.display = paragh.style.display === 'block' ? 'none' : 'block';
+    arrow.addEventListener("click", function(){
+        arrow.style.transform = arrow.style.transform === 'rotate(180deg)' ? '' : 'rotate(180deg)';
+        paragh.classList.toggle('active');
     });
-    
 });
+
+

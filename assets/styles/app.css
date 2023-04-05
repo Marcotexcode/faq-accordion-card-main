@@ -108,32 +108,48 @@ body {
 
 @media screen and (max-width: 1168px) {
 
+    body {
+        width: 100%;
+        padding: 0;
+        height: auto;
+        background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+    }
     .card {
+        margin-top: 100px;
+        width: 100%;
+        padding: 30px;
         display: block;
         height: auto;
     }
 
     .card_body_left_img_2 {
         position: absolute;
-        width: 362px;
-        left: 136px;
-        top: -48px;
+        width: 302px;
+        left: 39px;
+        top: -12px;
     }
 
     .card_body_left_img_1 {
-        width: 382px;
-        left: 10px;
-        top: -199px;
+        width: 326px;
+        left: -22px;
+        top: -201px;
     }
 
     .card_body_left_img_3 {
         width: 110px;
-        left: 141px;
-        top: 81px;
+        left: 18px;
+        top: 89px;
     }
 
     .card_body_right {
         width: 100%;
+        padding: 0;
     }
 
     .card_body_left {
